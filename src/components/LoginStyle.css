@@ -1,0 +1,62 @@
+#left_section_login {
+    /* top: 32px;
+    left: 32px; */
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 40%;
+    height: 100%;
+    background-color: #03AEEE;
+    /* UI Properties */
+    /* background: #03AEEE 0% 0% no-repeat padding-box; */
+    opacity: 0.1;
+    margin: 30px;
+}
+
+
+#kvlogo_login{
+    position:relative;
+    top: 30%;
+    left: 10%;
+    width: 208px;
+    height: 45px; 
+}
+
+
+#login_page {
+    left: 50%;
+    position: fixed;
+    height: 100%;
+    width:50%;
+    background-color: white;
+    
+}
+#login_info_div {
+    position:relative;
+    left: 10%;
+    top: 35%;
+}
+#name_login {
+    width: 460px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+#password_login {
+    width: 460px;
+    height: 50px;
+    margin-bottom: 30px;
+    
+}
+#login_button {
+    
+    width: 467px;
+    height: 50px;
+    background: #03AEEE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #B0E6FA;
+    border-radius: 3px;
+    border: #03AEEE solid 1px;
+    opacity: 1;
+    color: white;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+}

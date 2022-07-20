@@ -1,0 +1,375 @@
+#sec_emplist {
+    background-color: #FAFAFA;
+}
+#main_emplist {
+    background-color: #FAFAFA;
+    position: fixed;
+    height: 100%;
+    width: 82%;
+    left: 300px;
+    top: 0px;
+
+}
+#text_employeelist_emplist {
+    text-align: left;
+    font: normal normal bold 24px/32px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+    left: 10px;
+}
+
+#sidenav_emplist {
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 1080px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+#logo_div_emplist {
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 77px;
+    background: #E2E8FA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+#kvlogo_emplist {
+    position: absolute;
+    top: 16px;
+    left: 46px;
+    width: 208px;
+    height: 45px;
+    /* UI Properties */
+    /* background: transparent url('img/kv logo.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+#employeelist_blue_div{
+    top: 100px;
+    left: 16px;
+    width: 285px;
+    height: 60px;
+    position: absolute;
+    /* UI Properties */
+    background: #03AEEE 0% 0% no-repeat padding-box;
+    border-radius: 50px 0px 0px 50px;
+
+    opacity: 1;
+}
+#employeelist_white_div{
+    background: #FFFFFF;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+}
+#emplogo_emplist {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+#employeelist_text_emplist{
+    /* Layout Properties */
+    position: absolute;
+    left: 50px;
+    width: 127px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 16px/22px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.main_heading_emplist {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 100%;
+    height: 77px;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    align-items: center;
+
+
+    opacity: 1;
+}
+.employee_item_div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 40px;
+    position: relative;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 5px;
+    opacity: 1;
+}
+#listing_div_emplist {
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    height: 58px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    padding-bottom: 20px;
+}
+#emplist_heading_emplist {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10px;
+    padding-right: 40px; */
+    position: absolute;
+    top:180px;
+    background-color: #EAF9FF;
+    width: 100%;
+    height: 58px;
+    margin-bottom: 10px;
+}
+.emp_name_emplist {
+    position: absolute;
+    left:5%;
+}
+.emp_id_emplist {
+    position: absolute;
+    left:20%;
+}
+.joiningdate_emplist {
+    position: absolute;
+    left:40%;
+}
+.role_emplist {
+    position: absolute;
+    left:50%;
+}
+.status_emplist {
+    position: absolute;
+    left:65%;
+}
+.experience_emplist {
+    position: absolute;
+    left:75%;
+}
+.delete_icon_emplist {
+    position: absolute;
+    color: #FA4242;
+    left:90%;
+}
+.edit_icon_emplist {
+    position: absolute;
+    color:#10AAC0;
+    left:93%;
+}
+.action_heading_emplist{
+    position: absolute;
+    left:90%;
+}
+#create_employee_button{
+    position: absolute;
+    width: 58px;
+    height:58px;
+    border-radius: 50%;
+    background-color:#03AEEE;
+    border: #03AEEE solid 1px;
+}
+#create_employee_button_div {
+    position: absolute;
+    background-color: #EAF9FF;
+
+    width: 259px;
+    height: 58px;
+    right: 3%;
+    align-items: center;
+    color: #1F1F1F;
+    border-radius: 50px;
+}
+
+#create_employee_text_emplist {
+    position: absolute;
+    left:30%;
+    text-align: left;
+    font: normal normal normal 20px/27px Nunito Sans;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    opacity: 1;
+}
+.employee_item_div {
+    display: block;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+#main_blank_div{
+    position: fixed;
+    height: 77px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#create_employee_input_div{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 10px;
+    padding-right: 40px; */
+    position: absolute;
+    top:180px;
+    background-color: #FDFDFD;
+    width: 100%;
+    height: 58px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 20px;
+
+}
+#employee_name {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#dept_id {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#employee_email {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#joining_date {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#experience {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#address {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#upload_id_proof {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#role {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+#status {
+    width: 450px;
+    height: 45px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+.input_wrap_div {
+    padding: 10px;
+}
+#single_emp_container_div{
+    display: flex;
+    flex-wrap: wrap;
+    top: 180px;
+    left: 50px;
+    width: 1275px;
+    height: 232px;
+    position:absolute;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    opacity: 1;
+
+}
+.sing_emp_info_wrap{
+    padding: 10px;
+    font: normal normal 600 16px/22px Nunito;
+    letter-spacing: 0px;
+    color: #434552;
+    opacity: 1;
+    padding-left: 20px;
+    padding-right: 50px;
+
+}
+#employee_details_heading_div {
+    position:absolute;
+    top: 85px;
+    left: 50px;
+    width: 100%;
+    height: 77px;
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+}
+#single_emp_main_container{
+    position: absolute;
+    
+    
+    height: 200px;
+    width: 100%;
+}
+#button_edit_employee_div {
+    position:absolute;
+    top: 100px;
+    right:100px;
+    width: 168px;
+    height: 58px;
+    /* UI Properties */
+    background: #EAF9FF 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    opacity: 1;
+}
+#button_edit_employee {
+    position:absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #03AEEE;
+    border: 1px solid #03AEEE;
+    color:white;
+
+}
+#button_edit_employee_text{
+    position:absolute;
+    text-align: left;
+    font: normal normal normal 20px/27px Nunito Sans;
+    letter-spacing: 0px;
+    color: #1F1F1F;
+    opacity: 1;
+    left:50%;
+    align-items: center;
+}
